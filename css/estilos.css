@@ -13,7 +13,7 @@ body{
     width: 500px;
     position: absolute;    
     border-radius: 4px;
-    border: 1px solid black;
+    border: 1px solid rgb(88, 5, 5);
     
 
 }.img{
@@ -21,15 +21,22 @@ body{
     top: 0;
     width: 100%;
     z-index: -1;
-}.texto{
+}.texto_Josthyn{
     width: 100%;
     z-index: 1;
     position: absolute;
     top: 50%;
     text-align: center;
     padding: 1mm;
-    color: white;
+    color: rgb(21, 2, 2);
 }
-.texto h1{
-    color: bisque;
+.texto_Josthyn h2{
+    color: rgb(255, 252, 240);
+}
+.cabezera{
+    position: absolute;
+    top: 0;
+    color: rgb(255, 252, 240);
+    width: 100%;
+    text-align: center;
 }
