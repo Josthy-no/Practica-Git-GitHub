@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.container{
+    width: 500px;
+    position: absolute;    
+    border-radius: 4px;
+    border: 1px solid black;
+    
+
+}.img{
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}.texto{
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    padding: 1mm;
+    color: white;
+}
+.texto h1{
+    color: bisque;
+}
