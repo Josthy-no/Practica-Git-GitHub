@@ -6,7 +6,7 @@
 body{
     display: flex;
     justify-content: center;
-    
+    font-family:cursive;
 
 }
 .container{
@@ -39,4 +39,7 @@ body{
     color: rgb(255, 252, 240);
     width: 100%;
     text-align: center;
+}
+.semi-oculto{
+    opacity: 0.1;
 }
