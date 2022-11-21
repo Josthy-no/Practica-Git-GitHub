@@ -12,8 +12,8 @@ body{
 .container{
     width: 500px;
     position: absolute;    
-    border-radius: 4px;
-    border: 1px solid rgb(88, 5, 5);
+    /* border-radius: 4px; */
+    /* border: 1px solid rgb(88, 5, 5); */
     
 
 }.img{
@@ -39,6 +39,7 @@ body{
     color: rgb(255, 252, 240);
     width: 100%;
     text-align: center;
+    background: linear-gradient(0deg, transparent 1%, rgba(0,0,0,0.8) 100%);
 }
 .semi-oculto{
     opacity: 0.1;
