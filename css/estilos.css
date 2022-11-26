@@ -7,7 +7,7 @@ body{
     display: flex;
     justify-content: center;
     font-family:cursive;
-
+    background-color: rgb(239, 245, 173);
 }
 .container{
     width: 500px;
